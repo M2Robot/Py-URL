@@ -1,14 +1,11 @@
 import os
 import sys
-import pyshorteners
+import pyshorteners 
+# pip install pyshorteners
 
 
-
-
-## author : MrRobot
-## pyurl tool for shorten url.
+# ASCII logo banner
 bannerShortUrl = '''
-
 
 ______                 _   _ ______  _     
 | ___ \               | | | || ___ \| |    
@@ -19,10 +16,32 @@ ______                 _   _ ______  _
          __/ |                             
         |___/                              
 
-
 '''
 
 print(bannerShortUrl)
-url = input("Enter your url :~# ")
 
-print(" ↓ URL\n",pyshorteners.Shortener().tinyurl.short(url))
+# define main script 
+# as a start for looping
+def start(): 
+     	url = input("\nEnter your url :~# ")
+     	print(" ↓ URL\n",pyshorteners.Shortener().tinyurl.short(url))
+
+start()
+
+# option for re-run script or exit
+ask = input("\nWanna create a new one? y/n : ")
+
+if ask == "y" or "yes":
+   start()
+elif ask == "n" or "no":
+   sys.exit(0)
+
+
+    
+# u/ MrRobot
+# v/ 1.0.2
+    
+# ---------------
+# T H E  E N D .
+# ---------------
+    
