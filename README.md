@@ -24,6 +24,8 @@ git clone https://github.com/M2Robot/Py-URL.git
 
 cd Py-URL
 
+pip install pyshorteners
+
 python3 pyURL.py
 
 <img src="https://i.ibb.co/hmj2Ywt/55-D55-FA8-3842-4111-BA7-C-52-AE1-BB6-A6-E3.jpg" title="pyURL-Tool" alt="alt text here"/>
