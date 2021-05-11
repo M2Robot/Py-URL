@@ -4,8 +4,11 @@ pyURL is containing a few line of codes but with doing more, Shorten URL without
 Operating System Support
 
 • Android (Using the Termux App) 
-• Linux (Debian Based Systems) 
+
+• Linux (Debian Based Systems)
+
 • Unix
+
 • MacOS, IOS (Terminal, ISH)
 
 -
